@@ -1,0 +1,18 @@
+{
+  "name": "overmind-cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "cypress:open": "cypress open",
+  "cypress:run": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
+    "cypress": "^14.3.2"
+  }
+}
