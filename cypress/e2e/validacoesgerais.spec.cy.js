@@ -5,7 +5,7 @@ describe('Validação Geral do Site Overmind.ai', () => {
   beforeEach(() => {
     cy.visit(urlBase);
   });
-
+ 
   it('CT-0001 – Navegação entre seções pelo menu principal', () => {
     cy.get('#login-menu-bar .login-menu-item-area')
       .contains('Automação Digital')
@@ -34,6 +34,8 @@ describe('Validação Geral do Site Overmind.ai', () => {
         .should('be.visible');
     });
   });
+
+  
   const viewports = [
     { width: 320, height: 480, name: 'mobile' },
     { width: 768, height: 1024, name: 'tablet' },
